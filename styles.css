@@ -1,0 +1,267 @@
+* {
+    /* background-color: rgba(248, 248, 255, 0.87); */
+    background-color: #9db1bb;
+    color: rgb(48, 224, 224);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: #222222;
+    /* background-color: purple; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    z-index: 2;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#navbar header {
+    font-size: 2rem;
+    margin: auto 10px;
+    display: flex;
+    margin-left: -30px;
+    background-color: #222222;
+}
+
+.nav-logo {
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
+#navbar a {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 1.5rem;
+    color:rgb(48, 224, 224);
+    text-decoration: none;
+    background-color: #222222;
+}
+
+#navbar a:hover {
+    color: #ff00dde5;
+}
+#main-section {
+    margin-top: 200px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+header {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline;
+    padding-bottom: 20px;
+}
+
+#form {
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.email-form {
+    margin-bottom: 10px;
+}
+#email-form {
+    width: 270px;
+    font-size: 14px;
+    padding: 5px 0 5px 10px;
+    color: #222222;
+    border: 2px solid #222222;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.email-form:focus {
+    outline-color: #222222;
+    border-radius: 5px;
+}
+
+#email-form-submit {
+    background-color: #222222;
+    border-radius: 5px;
+    border: 2px #222222;
+    width: 150px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+#email-form-submit:hover {
+    cursor: pointer;
+    background-color: rgb(48, 224, 224);
+    color: #ff00dde5;
+}
+
+.middle-section {
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 50%;
+    text-align: left;
+    /* border: 2px solid red; */
+}
+
+#Features {
+    /* border: 2px solid red; */
+    margin: 15px 5px 30px 5px;
+}
+
+#How_it_works {
+    /* border: 2px solid red; */
+    margin: 30px 5px;
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+#Pricing {
+    /* border: 2px solid red; */
+    margin: 30px 5px;
+}
+
+p {
+    font-size: .9rem;
+    /* border: 2px solid red; */
+}
+
+article {
+    margin: 40px 0;
+    /* border: 2px solid red; */
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+
+}
+
+.features-icons {
+    width: 30px;
+    height: auto;
+    margin: 20px 20px 0 0;
+}
+
+.twitch-video-embed {
+    margin: 10px auto;
+    display: flex;
+}
+
+#Pricing {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    background-color: #87969e;
+}
+
+.item-header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #222222;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.product-img {
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+    top: 0;
+    display: flex;
+    /* align-items: center; */
+}
+
+.button {
+    background-color: #222222;
+    width: 30%;
+    margin: 15px auto;
+}
+
+.button:hover {
+    background-color:rgb(48, 224, 224);
+    color:#222222;
+    cursor: pointer;
+}
+
+.product-description {
+    text-align: center;
+    display: flex;
+    background-color: #87969e;
+}
+
+.item-footer {
+    text-align: center;
+    display: flex;
+    background-color: #87969e;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #87969e;
+    display: flex;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer-link {
+    justify-content: flex-end;
+    margin: 10px auto;
+    background-color: #87969e
+}
+
+footer span {
+    background-color: #87969e;
+    text-align: right;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+/* .features-icons:hover {
+    box-shadow: 5px 5px 5px 5px rgb(48, 224, 224);
+    cursor: pointer;
+} */
